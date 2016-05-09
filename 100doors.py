@@ -13,4 +13,4 @@ while step <= len(hallway):
 
 for door in range (0, len(hallway)):
     if hallway[door] == 1:
-        print (door+1)
+        print ("This door is open:", door+1)
